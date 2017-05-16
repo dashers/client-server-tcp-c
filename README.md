@@ -1,5 +1,5 @@
 # client-server-tcp-c
-A client and server implementation of tcp architecture in c.
+A client and server implementation of tcp architecture in C.
 This program treats rb1 as client and rb2 as server. client.c file is deployed in rb1 server and server.c file is deployed in rb2 server.
 1.  port.h --> This file contains the port number that is used by rb1 and rb2 to communicate with each other.
 2.  client.c --> This program takes 2 parameter as argument. First parameter is the name of the file where you want to download the data from server. If the file name is not present then its created by the code. Second parameter is the IPv4 address of the server. The program prints the start time when 1st data packet is received and end time when last data packet is received. Also at the end of the program the difference of the time is calculated and the total time for transfer is shown in screen output. Each time a data packet is received. Once the program successfully terminates the file provided as parameter to this C program is created in the same folder where this program is run.
